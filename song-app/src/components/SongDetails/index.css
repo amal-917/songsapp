@@ -1,0 +1,135 @@
+.details-container{
+    background-color: white;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.song-details{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+}
+.song-title{
+    
+
+}
+.image-cover{
+    height: 250px;
+    width: 230px;
+    border-radius: 8px;
+}
+.details{
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-left: 10px;
+}
+.red{
+    color: red;
+    
+}
+.size-love{
+    height: 30px;
+    width: 30px;
+}
+.fav-section{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+.styling-fav{
+    font-style: italic;
+    font-weight: bold;
+}
+.similar-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    
+    
+}
+.similar-head{
+    font-weight: bold;
+}
+.similar-items{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    
+}
+.img-similar{
+    height: 130px;
+    width: 130px;
+    border-radius: 7px;
+}
+.similar-each-container{
+    margin: 10px;
+}
+.back-button{
+    margin: 10px;
+    border: 1px solid black;
+    width: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.back-button:hover{
+    cursor: pointer;
+}
+.audio-container{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    
+}
+.track-name{
+    margin-top: 0px;
+}
+@media screen and (max-width: 992px){
+    .song-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .similar-items{
+        flex-wrap: wrap;
+    }
+    .image-cover{
+        height: 190px;
+        width: 140px;
+        border-radius: 8px;
+    }
+    .fav-section{
+        width: 120px;
+    }
+    .img-similar{
+        height: 90px;
+        width: 90px;
+        border-radius: 7px;
+    }
+    .song-title{
+        font-size: 18px;
+
+    }
+    .artist-name{
+        font-size: 15px;
+    }
+    .song-description-second{
+        font-size: 13px;
+    }
+    .styling-fav{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
