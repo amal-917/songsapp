@@ -98,6 +98,7 @@ class Home extends Component {
                     to={{ pathname: `/${each.name}`, state: { one: each } }}
                     className="link"
                   >
+                    <img src={each.cover} alt={each.name} className="image" />
                     <p className="song-name-head">{each.name}</p>
                     <p className="song-description">{each.description}</p>
                   </Link>
